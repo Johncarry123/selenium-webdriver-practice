@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Jay Vaghani on 
+ * Created by Jay Vaghani on 12-Oct-2019
  */
 public class WorkingWithElementsList {
     private WebDriver driver;
@@ -34,7 +34,7 @@ public class WorkingWithElementsList {
     public void testListOfElements() throws Exception {
         boolean isChecked = false;
         List<WebElement> radioButtons = driver.findElements(
-                By.xpath("//div[@id='radio-btn-example']/fieldset/label"));
+                By.xpath("//input[contains(@type,'radio') and contains(@name,'cars')]"));
         int size = radioButtons.size();
         System.out.println("Size of the list: " + size);
         for (int i=0; i<size; i++) {

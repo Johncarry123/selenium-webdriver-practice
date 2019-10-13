@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Jay Vaghani on .
+ * Created by Jay Vaghani on 12-Oct-2019.
  */
 public class DropdownSelect {
     private WebDriver driver;
