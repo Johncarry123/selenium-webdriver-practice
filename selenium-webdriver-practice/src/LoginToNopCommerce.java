@@ -45,6 +45,9 @@ public class LoginToNopCommerce {
 
     }
 
+
+
+
     @Test
     public void userShouldLoginSuccessFully(){
         //find elements for login link
